@@ -1178,9 +1178,6 @@ flex-direction: row;
     gap: 24px;
 }
 
-
-
-
    /*              section 4         */
 
 .app li {
@@ -1231,10 +1228,177 @@ align-items: flex-start;
 
 
 @media screen and (min-width: 1158px) {
+
+
+    /*           header             */
+
 .container {
         width: 1158px;
         padding: 0 15px;
     }
+
+.header .container {
+padding: 0 15px;
+}
+
+
+.adressinfo {
+    gap: 40px;
+    padding: 24px 0;
+    flex-direction: row;
+}
+
+.logoheader {
+margin-right: 76px;
+}
+
+
+.address {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/*        section-one         */
+
+.section-one {
+ padding: 188px 0;
+ max-width: 1440px; 
+}
+
+.section-one h1 {
+margin-bottom: 48px;
+}
+
+
+/*            ssection-two            */
+.icons {
+     display: flex;
+    margin: o auto;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+}
+ .icon {
+    margin: 24px 100px;
+} 
+
+.section-two {
+    padding: 120px 0; 
+    
+}
+
+.characteristic {
+     max-width: 1128px; 
+gap: 24px; 
+}
+
+ .characteristic li {
+    width: calc((100% - 72px) / 4); 
+} 
+
+.section-two h3 {
+     font-weight: 500; 
+     font-size: 20px;
+    line-height: 1.2; 
+}
+.section-two p {
+font-weight: 400px;
+font-family: "Roboto", sans-serif;
+max-width: 264px;
+}
+
+
+/*            section-tree           */
+
+.section-tree {
+padding: 120px 0;
+}
+
+.members {
+max-width: 1158px;
+}
+
+.chel {
+width: calc((100% - 72px) / 4);
+}
+
+
+
+/*            ssection-four            */
+
+.prilka:hover .text_picture {
+ transform: translateY(0%);
+}
+
+.section-four {
+     padding-top: 120px;
+    padding-bottom: 120px; 
+}
+
+.app li {
+     width: calc((100% - 48px) / 3); 
+}
+
+
+
+
+/*            footer          */
+.footer .container {
+    align-items: baseline;
+    margin-left: 15px ;
+}
+
+.containerfooterone {
+margin-right: 120px;
+margin-bottom: 0;
+}
+.containerfootertwo {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
+.for_email {
+ margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
