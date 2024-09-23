@@ -1061,9 +1061,9 @@ input::placeholder {
         margin: 0 auto;
     }
 
-.header .container {
-    padding: 0 16px;
-}
+ .header .container {
+    padding: 0;
+} 
 
 .logoheader {
     margin-right: 120px;
@@ -1103,8 +1103,7 @@ input::placeholder {
     flex-direction: column;
     justify-content: flex-end;
     gap: 12px;
-    padding: 16px 0;
-    
+    padding: 0;
 } 
 
 .page-nav .link {
@@ -1149,7 +1148,10 @@ input::placeholder {
 .menu_batton {
     display: none;
 }
-
+.adresscont {
+    display: flex;
+    align-items: center;
+}
 
    /*              section one         */
 
@@ -1215,7 +1217,7 @@ flex-direction: row;
         /*              footer        */
 .footer .container {
     justify-content: normal;
-    margin-left: 108px;
+    max-width: 552px;
 }
 
 .containerfooterone {
@@ -1232,11 +1234,18 @@ align-items: flex-start;
     }
 .login-form {
     flex-direction: row;
+    gap: 24px;
 }
 .plachka_nadpis {
      width: 264px;
 }
+.footer p {
+    margin: 0;
+}
 
+.submit_batton {
+    margin-top: 16px;
+}
 
  /*              modal window         */
 
